@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const WinnerMessage = ({ winner }) => {
-    return <div className='winner'><h1>Winner: {winner}</h1></div>;
+    return <div className='winner'><h2>Winner: {winner}</h2></div>;
 };
 
 WinnerMessage.propTypes = {

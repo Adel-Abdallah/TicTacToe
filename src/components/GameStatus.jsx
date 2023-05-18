@@ -9,7 +9,7 @@ const GameStatus = ({ winner, currentPlayer, cells }) => {
         return <TieMessage />;
     }
 
-    return <h3>Current Player: {currentPlayer}</h3>;
+    return <h2>Current Player: {currentPlayer}</h2>;
 };
 
 GameStatus.propTypes = {

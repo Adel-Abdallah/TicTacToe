@@ -49,10 +49,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 8px;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   margin: 0 auto;
-  background-color: #f3f3f3;
+  background-color: #61dafbaa;
   padding: 10px;
 }
 
@@ -91,7 +91,13 @@ button:hover {
 }
 
 .winner {
-  color: white;
+  color: yellowgreen;
+  font-weight: 600;
+  font-size: large;
+}
+
+.tie {
+  color: orangered;
   font-weight: 600;
   font-size: large;
 }

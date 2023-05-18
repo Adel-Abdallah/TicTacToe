@@ -1,6 +1,6 @@
 
 const TieMessage = () => {
-    return <div><h1>Its a tie!</h1></div>;
+    return <div><h2>Its a tie!</h2></div>;
 };
 
 export default TieMessage;
